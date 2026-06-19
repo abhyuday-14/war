@@ -1,0 +1,3 @@
+band-sdk[langgraph,claude-sdk]
+anthropic>=0.75.0
+python-dotenv
