@@ -1,0 +1,19 @@
+# Copy to agent_config.yaml and fill in the agent_id + api_key you get when
+# you create each of these four as a remote agent on app.band.ai.
+# Keep agent_config.yaml out of version control — it holds live API keys.
+
+sentinel:
+  agent_id: "<sentinel-agent-uuid>"
+  api_key: "<sentinel-agent-api-key>"
+
+triage:
+  agent_id: "<triage-agent-uuid>"
+  api_key: "<triage-agent-api-key>"
+
+remediator:
+  agent_id: "<remediator-agent-uuid>"
+  api_key: "<remediator-agent-api-key>"
+
+scribe:
+  agent_id: "<scribe-agent-uuid>"
+  api_key: "<scribe-agent-api-key>"

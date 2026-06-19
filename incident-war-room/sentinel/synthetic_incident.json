@@ -1,0 +1,16 @@
+{
+  "service": "checkout-api",
+  "metric": "http_5xx_rate",
+  "baseline": 0.002,
+  "current": 0.148,
+  "window_minutes": 30,
+  "p99_latency_ms": {
+    "baseline": 180,
+    "current": 612
+  },
+  "recent_deploys": [
+    {"id": "d-48213", "summary": "increase DB connection pool size", "minutes_ago": 41}
+  ],
+  "log_signature": "connection pool exhausted",
+  "log_match_count": 412
+}
